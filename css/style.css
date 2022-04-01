@@ -6,6 +6,9 @@
     margin:0px;
 }
 
+body{
+    background-color: #f3f3f3;
+}
 header{
     background-color: #222222;
     height: 130px;
@@ -33,6 +36,11 @@ header img{
     cursor: pointer;
     }
 
+a{
+    text-decoration: none;
+    color:white;
+}
+
     .banner {
         background-image: url(../img/bony.jpg);
         background-size: cover;
@@ -42,6 +50,62 @@ header img{
         align-items: center;
         box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px 0px;
         background-repeat: no-repeat;
+        background-position: center;
         }
 
-    
+
+
+section{
+    margin-top: 0px;
+}  
+
+    .curiosidades{
+        position: absolute;
+        margin-left: 170px;
+        height: 750px;
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap:15px; 
+           
+    }
+
+    .shopping{
+        height: 400px;
+        width: 333px;
+        background-color: aqua;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px 0px;
+    }
+
+    .nome{
+        height: 400px;
+        width: 333px;
+        background-color: aqua;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px 0px;
+    }
+
+    .comidas{
+        height: 400px;
+        width: 333px;
+        background-color: aqua;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px 0px;
+    }
+
+    .título{
+        font-size: 25px;
+        color:navy;
+        position:absolute;
+        margin-top: 90px;
+        margin-left: 169px;
+    }
+
+    .video{
+        position: absolute;
+        margin-left: 350px;
+        margin-top: 790px;
+    }
