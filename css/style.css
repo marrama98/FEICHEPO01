@@ -60,7 +60,6 @@ section{
 }  
 
     .curiosidades{
-        position: absolute;
         margin-left: 170px;
         height: 750px;
         width: 1000px;
@@ -96,7 +95,7 @@ section{
         box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px 0px;
     }
 
-    .título{
+    .titulo{
         font-size: 25px;
         color:navy;
         position:absolute;
