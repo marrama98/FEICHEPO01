@@ -104,7 +104,39 @@ section{
     }
 
     .video{
-        position: absolute;
         margin-left: 350px;
-        margin-top: 790px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
+
+   footer{
+       height: 300px;
+       background-color: #222222;
+   }
+
+   footer h1{
+       color:white;
+   }
+
+   .linkedin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+  
+  .linkedin img {
+    border-radius: 50%;
+    margin-top: 100px;
+  }
+  
+  .github {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+  
+  .github img {
+    border-radius: 50%;
+    margin-top: 100px;
+  }
+   
