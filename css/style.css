@@ -60,9 +60,9 @@ section{
 }  
 
     .curiosidades{
-        margin-left: 170px;
+       
         height: 750px;
-        width: 1000px;
+       
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -93,12 +93,18 @@ section{
         background-color: aqua;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px 0px;
+
+    }.card{
+        height: 400px;
+        width: 333px;
+        background-color: aqua;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px 0px;
     }
 
     .titulo{
         font-size: 25px;
         color:navy;
-        position:absolute;
         margin-top: 90px;
         margin-left: 169px;
     }
