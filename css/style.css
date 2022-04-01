@@ -61,8 +61,8 @@ section{
 
     .curiosidades{
        
-        height: 750px;
-       
+      
+       flex-wrap: wrap;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -94,7 +94,7 @@ section{
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px 0px;
 
-    }.card{
+    }.card1{
         height: 400px;
         width: 333px;
         background-color: aqua;
@@ -110,7 +110,10 @@ section{
     }
 
     .video{
-        margin-left: 350px;
+        display: flex;
+        align-items: center;
+       justify-items: center;
+       justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -138,7 +141,7 @@ section{
     border-radius: 50%;
     margin-top: 100px;
     justify-content: center;
-    margin-left: 250px;
+    margin-left: 350px;
   }
   
   .github {
